@@ -1,0 +1,47 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #000000;
+}
+
+.icon {
+  color: #2196f3;
+}
+
+.header {
+}
+
+.slogan {
+}
+
+.button {
+}
+
+.control {
+}
+
+.title {
+  font-weight: 500;
+}
+
+.subtitle {
+}
+
+.text {
+}
+
+.desc {
+}
+
+.footer {
+}
+
+.link {
+  color: black;
+}
+
+.link:hover,
+.link:focus,
+.filter:active {
+  color: #2196f3;
+}
