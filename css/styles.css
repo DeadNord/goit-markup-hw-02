@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-family: 'Raleway';
   color: #212121;
 }
 a {
@@ -20,13 +19,15 @@ ul {
 }
 
 .icon-header {
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-weight: bold;
   font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .icon-footer {
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-weight: bold;
   font-size: 26px;
   color: white;
@@ -37,17 +38,19 @@ ul {
 }
 
 .link-nav {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
   cursor: pointer;
   color: #212121;
 }
 
 .link-address {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
   color: rgb(75, 75, 75, 0.6);
   cursor: pointer;
 }
@@ -55,59 +58,81 @@ ul {
 .slogan {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
   color: white;
 }
 
 .button {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
   color: white;
   background-color: #2196f3;
   cursor: pointer;
 }
 
 .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .sub-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .text {
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
 .desc-name {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .desc-text {
   font-size: 16px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .footer-main {
-  line-height: 1.7;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: white;
   font-style: normal;
 }
 
 .footer-address {
-  line-height: 1.7;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgb(255, 255, 255, 0.6);
 }
 
 .control {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
   background-color: #f5f4fa;
   cursor: pointer;
 }
@@ -119,15 +144,17 @@ ul {
 
 .work-main {
   background-color: #eeeeee;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .work-desc {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 .link-nav:hover,
