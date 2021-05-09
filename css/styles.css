@@ -1,7 +1,14 @@
 body {
-  font-family: 'Roboto';
-  font-family: Raleway;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway';
   color: #212121;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 .white-color {
@@ -30,12 +37,15 @@ body {
 }
 
 .link-nav {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   cursor: pointer;
+  color: #212121;
 }
 
 .link-address {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   color: rgb(75, 75, 75, 0.6);
@@ -86,6 +96,7 @@ body {
 .footer-main {
   line-height: 1.7;
   color: white;
+  font-style: normal;
 }
 
 .footer-address {
