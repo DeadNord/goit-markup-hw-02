@@ -1,7 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
-  background-color: var(--main-back-color);
 }
 
 a {
@@ -13,9 +12,8 @@ ul {
 }
 
 :root {
-  --main-back-color: #ececec;
-  --secondary-back-color: #2f303a;
-  --third-back-color: #f5f4fa;
+  --main-back-color: #2f303a;
+  --secondary-back-color: #f5f4fa;
   --main-text-color: #212121;
   --secondary-text-color: #757575;
   --third-text-color: #ffffff;
@@ -26,15 +24,15 @@ ul {
 }
 
 .white-color {
-  background-color: var(--third-back-color);
-}
-
-.black-color {
   background-color: var(--secondary-back-color);
 }
 
+.black-color {
+  background-color: var(--main-back-color);
+}
+
 .icon-header {
-  font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
@@ -43,7 +41,7 @@ ul {
 }
 
 .icon-footer {
-  font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
@@ -52,7 +50,7 @@ ul {
 }
 
 .icon-blue {
-  color: var(--main-theme-color)
+  color: var(--main-theme-color);
 }
 
 .link-nav {
@@ -64,12 +62,25 @@ ul {
   color: var(--main-text-color);
 }
 
+.link-nav-selected {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  color: var(--main-theme-color);
+}
+
+.link-nav:active {
+  color: var(--main-theme-color);
+}
+
 .link-address {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  color: var(--main-link-color)
+  color: var(--secondary-text-color);
   cursor: pointer;
 }
 
@@ -103,6 +114,7 @@ ul {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .text {
@@ -126,18 +138,19 @@ ul {
 }
 
 .footer-main {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
-  font-style: normal;
 }
 
 .footer-address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color:var(--footer-link-color)
+  color: var(--footer-link-color);
 }
 
 .control {
@@ -145,18 +158,15 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-
-  background-color: var(--third-back-color);
+  background-color: var(--secondary-back-color);
   cursor: pointer;
 }
 
-.control:active {
+.control:active,
+.control:hover,
+.control:focus {
   color: var(--third-text-color);
   background-color: var(--main-theme-color);
-}
-
-.work-back {
-  background-color: var(--work-back-color);
 }
 
 .work-main {
@@ -179,5 +189,5 @@ ul {
 .link-address:focus,
 .footer-address:hover,
 .footer-address:focus {
-  color:var(--main-theme-color);
+  color: var(--main-theme-color);
 }
