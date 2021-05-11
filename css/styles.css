@@ -31,21 +31,19 @@ ul {
   background-color: var(--main-back-color);
 }
 
-.icon-header {
-  font-family: sans-serif;
+.icon {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+
+.icon-header {
   color: var(--main-text-color);
 }
 
 .icon-footer {
-  font-family: sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
 
@@ -53,31 +51,22 @@ ul {
   color: var(--main-theme-color);
 }
 
-.link-nav {
+.link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+}
+
+.link-nav {
   color: var(--main-text-color);
 }
 
 .link-nav-selected {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: var(--main-theme-color);
-}
-
-.link-nav:active {
   color: var(--main-theme-color);
 }
 
 .link-address {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
