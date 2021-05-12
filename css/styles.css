@@ -97,24 +97,21 @@ ul {
 
 .sub-title {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.text {
+.text-main {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+
+.text-secondary {
   color: var(--secondary-text-color);
 }
 
 .desc-name {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .desc-text {
@@ -125,17 +122,11 @@ ul {
 
 .footer-main {
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
 
 .footer-address {
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--footer-link-color);
 }
 
